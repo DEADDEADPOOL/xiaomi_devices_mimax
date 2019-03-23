@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/helium/device.mk)
 
 # Inherit some common LiquidRemix stuff.
-$(call inherit-product, vendor/config/common.mk)
+$(call inherit-product, vendor/config/dot/common.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
