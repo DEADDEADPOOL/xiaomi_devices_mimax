@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/hydrogen/full_hydrogen.mk)
 
 # Inherit some common stuff.
-# CUSTOM_BUILD_TYPE := UNOFFICIAL
+# CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_GAPPS_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
