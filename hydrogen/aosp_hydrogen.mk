@@ -18,7 +18,6 @@
 $(call inherit-product, device/xiaomi/hydrogen/full_hydrogen.mk)
 
 # Inherit some common stuff.
-# CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_GAPPS_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -32,6 +31,7 @@ PRODUCT_NAME := aosp_hydrogen
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Mi Max
 TARGET_VENDOR := Xiaomi
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
